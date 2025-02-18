@@ -35,7 +35,7 @@ Once installed, you can initialize the SDK and start using its features. For exa
 import HollyAISDK from './path/to/holly-sdk/HollyAISDK';
 
 // Initialize the SDK with your API key and the backend base URL
-const holly = new HollyAISDK('YOUR_API_KEY', 'http://your-backend-url');
+const holly = new HollyAISDK('YOUR_API_KEY', 'https://api.hollyagent.ai');
 
 // Use the core whisper method to perform analysis
 holly.core.whisper({
